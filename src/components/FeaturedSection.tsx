@@ -28,7 +28,7 @@ const FeaturedSection = () => {
           </p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 px-8 sm:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course, index) => (
             <div key={index} className="flex justify-center">
